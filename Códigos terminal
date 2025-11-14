@@ -34,3 +34,9 @@ pwd
 
 Para abrir un notebook, me situo en el terminal en la carpeta en la que lo quiero abrir y escribo
 jupyter notebook
+
+
+Instalar dependencias
+pip install openpyxl
+pip install numpy
+pip install pandas
