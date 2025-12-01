@@ -60,7 +60,7 @@ def plot_categorical_relationship_fin(df, cat_col1, cat_col2, relative_freq=Fals
             data_subset = count_data[count_data[cat_col1].isin(categories_subset)]
 
             # Crea el gráfico
-            plt.figure(figsize=(10, 6))
+            plt.figure(figsize=(5, 3))
             ax = sns.barplot(x=cat_col1, y='count', hue=cat_col2, data=data_subset, order=categories_subset)
 
             # Añade títulos y etiquetas
