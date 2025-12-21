@@ -50,5 +50,4 @@ pip install squarify
 pip install folium
 pip install plotly
 pip install statsmodels
-pip install scipy
 pip install scikit-learn
